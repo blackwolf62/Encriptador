@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,17 +13,18 @@
 <body>
     <header>
         <img src="imagenes/Vectorlogo.png" alt="Logo de Alura" class="logo">
+        <h1>Encriptar/ Desencriptar Texto</h1>
     </header>
 
     <main>
         <section>
             <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el Texto Aquí"></textarea>
             <div>
-                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+                <h6 class="informacion">&#9888; Solo letras minúsculas y sin acentos</h6>
             </div>
             <div class="botones">
-                <button class="btn-encriptar" oneclick="btnEncriptar()">Encriptar</button>
-                <button class="btn-desencriptar" oneclick="btnDesencriptar()">Desencriptar</button>
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
         </section>
 
@@ -34,6 +35,9 @@
             </div>
         </section>
     </main>
+    <footer>
+        <p class="Copyrigth">&copy Copyrigth Eynier Cordova 2023 </p>
+    </footer>
     <script src="/script.js"></script>
 </body>
 </html>
