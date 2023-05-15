@@ -50,3 +50,9 @@ function desencriptar(stringDesencriptada){
     return stringDesencriptada
     
 }
+
+function copyText(){
+    mensaje.select();
+    mensaje.setSelectionRange(0,99999);
+    navigator.clipboard.writeText(mensaje.value);
+}
